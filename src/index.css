@@ -4,13 +4,11 @@
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  margin: 0 6rem;
+body {
+  background-image: url('./img/background.jpeg');
+  background-repeat: no-repeat;
+  background-color: #cccc;
+  background-size: cover;
 }
 
 li {
@@ -58,27 +56,4 @@ input[type='submit'] {
 button {
   padding: 5px;
   margin-left: 10px;
-}
-
-.form-header {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
-
-.heading {
-  border: 3px solid #000;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  height: 20px;
-  text-align: center;
-}
-
-.main-header {
-  margin: 2rem;
-  font-weight: bolder;
-  font-size: 2rem;
 }
