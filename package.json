@@ -38,5 +38,8 @@
   "bugs": {
     "url": "https://github.com/learnwithalfred/redesigned-carnival-leaderboard/issues"
   },
-  "homepage": "https://github.com/learnwithalfred/redesigned-carnival-leaderboard#readme"
+  "homepage": "https://github.com/learnwithalfred/redesigned-carnival-leaderboard#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
