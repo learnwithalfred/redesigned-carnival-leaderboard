@@ -40,6 +40,7 @@
   },
   "homepage": "https://github.com/learnwithalfred/redesigned-carnival-leaderboard#readme",
   "dependencies": {
-    "boostrap": "^2.0.0"
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.1.3"
   }
 }
