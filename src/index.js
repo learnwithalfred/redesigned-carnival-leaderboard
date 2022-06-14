@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { displayData, URL, scoreUl } from './functions.js';
 import './index.css';
 
