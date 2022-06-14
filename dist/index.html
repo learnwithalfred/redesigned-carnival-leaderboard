@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <title>Leader board</title>
+  <script defer src="/leaderBoard/main.js"></script></head>
+  <body>
+    <section class="main-page">
+      <h1 class="main-header">Leader board</h1>
+      <div class="row">
+        <div class="column">
+          <div class="column-header">
+            <h2 class="score-header">Recent scores</h2>
+            <button class="refresh">Refresh</button>
+          </div>
+          <ul class="score-list">
+            <li class="list-item">name: 100</li>
+            <li class="list-item">name: 20</li>
+            <li class="list-item">name: 300</li>
+            <li class="list-item">name: 300</li>
+            <li class="list-item">name: 900</li>
+            <li class="list-item">name: 3900</li>
+          </ul>
+        </div>
+        <div class="column">
+          <div class="column-header">
+            <h2 class="form-header">Add your score</h2>
+          </div>
+          <form action="/" class="form">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input"
+              placeholder="Your name"
+            />
+            <input
+              type="number"
+              name="score"
+              id="score"
+              class="input"
+              placeholder="Your score"
+            />
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
