@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <title>Leader board</title>
-  <script defer src="/leaderBoard/main.js"></script></head>
+  <script defer src="main.js"></script></head>
   <body>
     <section class="main-page">
       <h1 class="main-header">Leader board</h1>
@@ -19,22 +19,22 @@
         <div class="column">
           <div class="column-header">
             <h2 class="score-header">Recent scores</h2>
-            <button class="refresh">Refresh</button>
+            <button class="refresh" id="refresh_btn">Refresh</button>
           </div>
           <ul class="score-list">
-            <li class="list-item">name: 100</li>
+            <!-- <li class="list-item">name: 100</li>
             <li class="list-item">name: 20</li>
             <li class="list-item">name: 300</li>
             <li class="list-item">name: 300</li>
             <li class="list-item">name: 900</li>
-            <li class="list-item">name: 3900</li>
+            <li class="list-item">name: 3900</li> -->
           </ul>
         </div>
         <div class="column">
           <div class="column-header">
             <h2 class="form-header">Add your score</h2>
           </div>
-          <form action="/" class="form">
+          <form action="#" method="post" id="form">
             <input
               type="text"
               name="name"
